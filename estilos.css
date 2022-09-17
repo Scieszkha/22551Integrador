@@ -1,0 +1,308 @@
+body{
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+
+
+.container{
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+
+
+
+
+
+
+
+.navbar{
+  background-color: rgb(53, 58, 64);
+}
+
+.links{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.posicion{
+  color: #ffffff;
+  
+  justify-items: end;
+  list-style-type: none;
+  font-size: 20px;
+  margin-left: auto;
+  
+}
+
+
+
+
+
+.banner{
+  
+  height: 50%;
+  border: 1px;
+}
+/* Propiedades de la imagen de fondo en el banner */
+.container1{
+  display: flex;
+  max-width: 100%;
+  height: 80vh;
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ba1.jpg);
+  
+  
+  background-position: 100% 70%;
+  background-color: black;
+}
+
+
+h1{
+  color: #ffffff;
+}
+
+/* Propiedades de la caja con el texto */
+.informacion{
+  max-width: 1000px;
+  
+  padding-top: 10%;
+  padding-right: 5%;
+  margin-left: auto;
+  text-align: right;
+  justify-content: left;
+  height: 100%;
+  display: flex;
+}
+
+
+
+.color{
+  font-size: 17px;
+  color: #ffffff;
+  
+  
+  
+}
+
+.descripcion{
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 3%;
+}
+/* titulos de la seccion Div "Cards" Presentacion de los oradores*/
+.orador{
+  text-align: center;
+  
+  
+}
+
+.espacio1{
+  margin-top: 30px;
+}
+
+.espacio2{
+  margin-bottom: 30px;
+}
+
+/* Cards de los distitos oradores */
+.centro{
+  
+  display: inline-block;
+  justify-content: center;
+  
+}
+
+.etiqueta{
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px;
+  
+  
+  
+  
+  font: bold;
+  
+  
+}
+
+/* Efecto de las etiquetas */
+.javascript{
+  background-color: rgb(255, 201, 0);
+  padding: 5px;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.react{
+  background-color: rgb(23, 162, 185);
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.negocios{
+  background-color: rgb(108, 117, 124);
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.startups{
+  background-color: rgb(220, 53, 70);
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* imagen y texto */
+
+.imagenfondo{
+  
+  width: 70%;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  background-position: center;
+  background-size: contain;
+  
+  
+}
+
+
+/* tamanio de la imagen */
+.imgaside{
+  width: 100%;
+  
+
+}
+
+/* texto de la imagen */
+aside{
+  background-color: rgb(53 , 58, 64);
+  color: #ffffff;
+  margin-left: 5px;
+
+}
+
+
+/* texto del aside estilos */
+.asidetext{
+  margin-left: 5px;
+}
+
+/* propiedades de estilos del boton */
+.boton{
+  margin-left: 5px;
+  background-color:  transparent;
+  color:#ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+
+
+/* Formulario de inscripcion */
+
+.formtitle{
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.formulario{
+  width: 50%;
+  
+}
+/* Formulario nombre y apellido */
+.formu{
+  
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+/* el padding del placeholder */
+
+
+
+/* Bordes del formulario */
+.bordes{
+  
+  padding: 10px;
+}
+
+/* area de descripcion */
+textarea{
+  
+  width: 100%;
+}
+
+/* Propiedades del submit */
+
+.enviar{
+  width: 100%;
+  background-color: rgb(150, 201, 62);
+  border-color: transparent;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #ffffff;
+
+}
+
+/* footer */
+
+.degradado{
+  margin-top: 20px;
+  /* Fondo degradado */
+  background: #1c3643;
+  background: linear-gradient(0deg,#1c3643 0%, #1e5372 80%);
+  background: -webkit-linear-gradient(0deg,#1c3643 0%, #1e5372 80%);
+  background: -moz-linear-gradient(0deg,#1c3643 0%, #1e5372 80%);
+  /* footer */
+  width: 100%;
+  position: absolute;
+  padding: 50px;
+  
+  text-align: center;
+  
+  
+  
+}
+
+.box{
+  display: inline-flex;
+  
+  
+
+  
+}
+
+.col{
+  color:#ffffff;
+  text-decoration: none;
+  padding: 30px;
+  
+}
+
+.deco{
+  
+  list-style-type: none;
+  font-size: 20px;
+  
+  color: #ffffff;
+  padding-left: 10px;
+  
+}
