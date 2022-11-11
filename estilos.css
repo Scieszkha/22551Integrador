@@ -305,4 +305,63 @@ textarea{
   color: #ffffff;
   padding-left: 10px;
   
+<<<<<<< Updated upstream
+=======
+}
+
+.tk{
+  margin: 30px;
+  
+}
+
+.espacio{
+  margin-right: 20px;
+  
+}
+
+.pos2{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
+}
+
+
+
+.bordercolor{
+  border-color:#0047f9;
+  border-style: solid;
+  border-radius: 2px;
+
+}
+
+.bordercolor2{
+  border-color:#e2f10c;
+  border-style: solid;
+  border-radius: 2px;
+
+}
+
+.bordercolor3{
+  border-color:#007434;
+  border-style: solid;
+  border-radius: 2px;
+
+}
+
+.pos3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+.venta{
+  color: #000000;
+}
+#montoTotal{
+  font-size: 20px;
+>>>>>>> Stashed changes
 }
